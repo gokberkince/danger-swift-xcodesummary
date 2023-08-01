@@ -14,8 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/danger/swift", from: "3.1.17"),
-        .package(url: "https://github.com/f-meloni/Rocket", from: "1.0.0"), // dev,
-        .package(url: "https://github.com/gokberkince/danger-swift-coverage", from: "1.0.0"), // dev
+        .package(url: "https://github.com/f-meloni/Rocket", from: "1.0.0")
     ],
     targets: [
         .target(name: "DangerDependencies",dependencies: ["Danger", "DangerXCodeSummary", "DangerSwiftCoverage"]), //dev
